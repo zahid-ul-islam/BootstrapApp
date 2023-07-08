@@ -1,0 +1,20 @@
+.card-img-top {
+    
+    height: 420px;
+    object-fit: fill;
+}
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    
+}
+
+

@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to right, #0099F7, #F11712) !important;
+}
+.carousel-inner img {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.carousel-item {
+   padding-top: 20px;
+}
+.month{
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    background-image: linear-gradient(to left,#fd746c, #ff9068) ;
+    border-radius: 30px;
+}
+

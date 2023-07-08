@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar img {
+    width: 60px;
+}
+
+.cont2 .row {
+    display: flex;
+    flex-direction: column;
+}
+.cont2 a {
+    color: rgb(250, 6, 46);
+    text-decoration: none;
+    
+}
+.cont2 h2:hover {
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out;
+}
+.mAS{
+    color: rgb(250, 6, 46);  
+    text-decoration: underline;
+}
+footer {
+    height: 50px;
+}
+.cont2 .coldes:hover {
+    transform: scale(1.04); 
+   transition: transform 1s ease-in-out;
+}

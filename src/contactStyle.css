@@ -1,0 +1,133 @@
+#section1 {
+    margin-top: 20px;
+    
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  #4e4d4dea;
+    
+    color: white;
+    box-shadow: 0px 0px 10px 1px #585454;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  .btn-reset {
+    background-color: #ddd;
+    color: #333;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-reset:hover {
+    background-color: #ccc;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  .form-footer {
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    color: #333;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .social-icons a:hover {
+    color: #2ecc71;
+  }
+  .fa-facebook {
+    color: #1877f2;
+    transition: all .5s ease;
+  } 
+  .fa-instagram {
+    color:  #e4405f;
+    transition: all .5s ease;
+  }  
+  .fa-envelope {
+    color: #c71610;
+    transition: all .5s ease;
+  } 
+  /* ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  } */
+  .fa-facebook:hover {
+    transform: scale(1.5);
+
+  }
+  .fa-instagram:hover {
+    transform: scale(1.5);
+
+  }
+  .fa-envelope:hover {
+    transform: scale(1.5);
+
+  }
+  
